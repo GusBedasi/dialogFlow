@@ -1,0 +1,19 @@
+{
+  "name": "dialogflow-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "@google-cloud/dialogflow": "^3.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "sucrase": "^3.15.0"
+  }
+}
